@@ -1,0 +1,256 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    margin: 0px;
+    offset: 0px;
+    border-bottom: 1px solid grey;
+    
+}
+#headerFirst{
+    position: relative;
+    background-color: rgb(59, 89, 152);
+    color: white;
+    min-height: 30px;
+    min-width: 494px;
+    height: 45px;
+}
+#headerFirst>span{
+    margin-top:25px;
+    padding-top: 5px;   
+}
+#headerFirst button{
+
+    background-color: rgb(59, 89, 152);
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    margin-top: 8px;
+  
+
+}
+#camera{
+    position: absolute;
+    left:5%;  
+    width: 30px;
+    min-width:  20px;
+    min-height: 20px;
+    background-image: url("camera.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+#mesages{
+    position: absolute;
+    
+    right:5%;
+    min-width: 20px;;
+    min-height:20px;
+    width: 30px;
+    background-image: url("messenger.png");
+    background-size:20px;
+    background-repeat: no-repeat;
+}
+#search{
+    
+    min-width:  20px;;
+    min-height: 20px;
+    width: 30px;
+    background: none;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-image: url("search.png");
+    background-size: 20px;
+    border-bottom: 1px solid white;
+}
+#searchbox{
+    position: relative;
+    left: 40%;
+    border-bottom: 1px solid white;
+    margin-left:6%;
+    margin-right:6%;
+}
+
+header>span>button{  
+    min-width: 20px;;
+    min-height:20px;
+    background:none;
+    background-size:20px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    margin-top: 14px;
+    margin-left: 10.5%;
+    margin-left: 15.5%;
+
+}
+#news{
+    background-image: url("feed.png");
+}
+#friends{
+    background-image: url("friends.png");
+}
+#feed{
+    background-image: url("middle.png");
+}
+#notifications{
+    background-image: url("notification.png");
+}
+#menu{
+    background-image: url("more.png");
+}
+body{
+    margin: 0px;
+}
+
+#profilepost{
+position: relative;
+margin-left: 7%;
+margin-right: 7%;
+}
+#profile{
+    min-width: 70px;;
+    min-height:70px;
+    width: 70px;;
+    height:70px;    
+    background:none;
+    background-image: url("profile.png");
+    background-size:70px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    margin-top: 14px;
+
+}
+#name{
+    position: absolute;
+    top: 20px ;
+    left: 80px;
+   
+}
+#time{
+       position: absolute;
+        top: 40px;
+        left: 80px;
+        font-size:12px;
+        color: darkgrey;
+    
+}
+#description{
+    margin-left:1%;
+    margin-right:1%;
+}
+#buttons>button{
+    background-color:white;
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+   
+    min-width: 17px;;
+    min-height:17px;
+    background-size:17px;
+    background-repeat: no-repeat;
+    margin-top: 17px;
+    margin-left: 15.5%;
+    margin-left: 15.5%;
+
+}
+#like{
+    background-image: url("like.png");
+
+}
+#comment{
+    background-image: url("comment.png");
+}
+#share{
+    background-image: url("share.png");
+}
+#buttons{
+    border-top: 1px solid grey;
+    width: 90%;
+    height: 50px;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+.postcontainer{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 5px solid grey;
+}
+#description{
+margin-left: 7%;
+margin-right:7%;
+}
+.post{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+#reactions{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.reactions{
+    background-size: 24.5px;
+    padding: 0px;
+    margin: 0px;
+    min-width: 25px;
+    min-height: 25px;
+    display:inline-block;
+    background-size: 24.5px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+#reactionsamount{
+    position: absolute;
+    bottom: 5.5px;
+    left: calc(0.1% + 80px);
+    color: rgb(155, 155, 155);
+}
+
+#reactionsamount:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#postimage{
+    max-width:80%;
+    max-height:30%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+#reaction1{
+        background-image: url("reaction1.png");
+
+  
+        bottom: 5px;
+        left:0.1%;
+    }
+#reaction2{
+
+
+    bottom: 5px;
+    left: calc(0.1% + 25px);
+    background-image: url("reaction2.png");}
+#reaction3{
+
+    
+     background-image: url("reaction3.png");
+    bottom: 5px;
+    left: calc(0.1% + 50px);}
+
+
+
+#conmmentamount{
+position: absolute;
+right: 0.1%;
+bottom: 5px;
+}
