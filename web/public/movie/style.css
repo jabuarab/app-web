@@ -1,0 +1,78 @@
+.btn-cerrar-popup{
+	margin-left: 100%;
+	color: whitesmoke;
+	width: 5%;
+	background-color: rgba(177, 2, 2, 0.9);
+	border-radius: 3px;
+	padding: 0mm;
+	border: 0mm;
+}
+html {
+	height: 100%;
+	font-family: "Courier New", Courier, monospace;
+  }
+  body {
+	min-height: 100%;
+  }
+.popup{
+	width: 80%;
+	height: 90%;
+}
+.overlay{
+	background-color: rgb(153, 53, 131,0.9);
+	position: fixed; /*toda la pantalla*/
+	border-radius:3px;
+	top: 10%;
+	left: 30%;
+	right: 30%;
+	bottom: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	
+}
+
+.overlay.active{
+	visibility: visible;
+}
+.movie{
+	border: 0px;
+	margin:0px;
+	padding: 0px;
+	height: 200px;
+	width: 20%;
+	margin-left:1%;
+	margin-right:1% ;
+}
+@media  screen and (max-width: 600px){
+    body{
+        background-color: black;
+    }
+    #container{
+        background-color: black;    
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 98%;
+	}
+	.movie{
+		width: 90%;
+		margin: 5%;
+		height: 500px;
+	}
+	.overlay{
+		background-color: rgb(153, 53, 131,0.9);
+		position: fixed; /*toda la pantalla*/
+		border-radius:3px;
+		top: 10%;
+		left: 10%;
+		right: 10%;
+		bottom: 10%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		visibility: hidden;
+		
+	}
+
+}
